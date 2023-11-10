@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4AF95E02AFED4BF00358E5E /* GIMMChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95DF2AFED4BF00358E5E /* GIMMChatApp.swift */; };
+		D4AF95E22AFED4BF00358E5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95E12AFED4BF00358E5E /* ContentView.swift */; };
+		D4AF95E42AFED4C000358E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AF95E32AFED4C000358E5E /* Assets.xcassets */; };
+		D4AF95E82AFED4C000358E5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AF95E72AFED4C000358E5E /* Preview Assets.xcassets */; };
+		D4AF95F22AFED4C000358E5E /* GIMMChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95F12AFED4C000358E5E /* GIMMChatTests.swift */; };
+		D4AF95FC2AFED4C000358E5E /* GIMMChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95FB2AFED4C000358E5E /* GIMMChatUITests.swift */; };
+		D4AF95FE2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95FD2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4AF95EE2AFED4C000358E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4AF95D42AFED4BF00358E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AF95DB2AFED4BF00358E5E;
+			remoteInfo = GIMMChat;
+		};
+		D4AF95F82AFED4C000358E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4AF95D42AFED4BF00358E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AF95DB2AFED4BF00358E5E;
+			remoteInfo = GIMMChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4AF95DC2AFED4BF00358E5E /* GIMMChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIMMChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AF95DF2AFED4BF00358E5E /* GIMMChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatApp.swift; sourceTree = "<group>"; };
+		D4AF95E12AFED4BF00358E5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4AF95E32AFED4C000358E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AF95E52AFED4C000358E5E /* GIMMChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GIMMChat.entitlements; sourceTree = "<group>"; };
+		D4AF95E72AFED4C000358E5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4AF95ED2AFED4C000358E5E /* GIMMChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIMMChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AF95F12AFED4C000358E5E /* GIMMChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatTests.swift; sourceTree = "<group>"; };
+		D4AF95F72AFED4C000358E5E /* GIMMChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIMMChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AF95FB2AFED4C000358E5E /* GIMMChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatUITests.swift; sourceTree = "<group>"; };
+		D4AF95FD2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4AF95D92AFED4BF00358E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF95EA2AFED4C000358E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF95F42AFED4C000358E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4AF95D32AFED4BF00358E5E = {
+			isa = PBXGroup;
+			children = (
+				D4AF95DE2AFED4BF00358E5E /* GIMMChat */,
+				D4AF95F02AFED4C000358E5E /* GIMMChatTests */,
+				D4AF95FA2AFED4C000358E5E /* GIMMChatUITests */,
+				D4AF95DD2AFED4BF00358E5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4AF95DD2AFED4BF00358E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF95DC2AFED4BF00358E5E /* GIMMChat.app */,
+				D4AF95ED2AFED4C000358E5E /* GIMMChatTests.xctest */,
+				D4AF95F72AFED4C000358E5E /* GIMMChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AF95DE2AFED4BF00358E5E /* GIMMChat */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF95DF2AFED4BF00358E5E /* GIMMChatApp.swift */,
+				D4AF95E12AFED4BF00358E5E /* ContentView.swift */,
+				D4AF95E32AFED4C000358E5E /* Assets.xcassets */,
+				D4AF95E52AFED4C000358E5E /* GIMMChat.entitlements */,
+				D4AF95E62AFED4C000358E5E /* Preview Content */,
+			);
+			path = GIMMChat;
+			sourceTree = "<group>";
+		};
+		D4AF95E62AFED4C000358E5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF95E72AFED4C000358E5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4AF95F02AFED4C000358E5E /* GIMMChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF95F12AFED4C000358E5E /* GIMMChatTests.swift */,
+			);
+			path = GIMMChatTests;
+			sourceTree = "<group>";
+		};
+		D4AF95FA2AFED4C000358E5E /* GIMMChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF95FB2AFED4C000358E5E /* GIMMChatUITests.swift */,
+				D4AF95FD2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift */,
+			);
+			path = GIMMChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4AF95DB2AFED4BF00358E5E /* GIMMChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AF96012AFED4C000358E5E /* Build configuration list for PBXNativeTarget "GIMMChat" */;
+			buildPhases = (
+				D4AF95D82AFED4BF00358E5E /* Sources */,
+				D4AF95D92AFED4BF00358E5E /* Frameworks */,
+				D4AF95DA2AFED4BF00358E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIMMChat;
+			productName = GIMMChat;
+			productReference = D4AF95DC2AFED4BF00358E5E /* GIMMChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4AF95EC2AFED4C000358E5E /* GIMMChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AF96042AFED4C000358E5E /* Build configuration list for PBXNativeTarget "GIMMChatTests" */;
+			buildPhases = (
+				D4AF95E92AFED4C000358E5E /* Sources */,
+				D4AF95EA2AFED4C000358E5E /* Frameworks */,
+				D4AF95EB2AFED4C000358E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AF95EF2AFED4C000358E5E /* PBXTargetDependency */,
+			);
+			name = GIMMChatTests;
+			productName = GIMMChatTests;
+			productReference = D4AF95ED2AFED4C000358E5E /* GIMMChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4AF95F62AFED4C000358E5E /* GIMMChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AF96072AFED4C000358E5E /* Build configuration list for PBXNativeTarget "GIMMChatUITests" */;
+			buildPhases = (
+				D4AF95F32AFED4C000358E5E /* Sources */,
+				D4AF95F42AFED4C000358E5E /* Frameworks */,
+				D4AF95F52AFED4C000358E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AF95F92AFED4C000358E5E /* PBXTargetDependency */,
+			);
+			name = GIMMChatUITests;
+			productName = GIMMChatUITests;
+			productReference = D4AF95F72AFED4C000358E5E /* GIMMChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4AF95D42AFED4BF00358E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D4AF95DB2AFED4BF00358E5E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D4AF95EC2AFED4C000358E5E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D4AF95DB2AFED4BF00358E5E;
+					};
+					D4AF95F62AFED4C000358E5E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D4AF95DB2AFED4BF00358E5E;
+					};
+				};
+			};
+			buildConfigurationList = D4AF95D72AFED4BF00358E5E /* Build configuration list for PBXProject "GIMMChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4AF95D32AFED4BF00358E5E;
+			productRefGroup = D4AF95DD2AFED4BF00358E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4AF95DB2AFED4BF00358E5E /* GIMMChat */,
+				D4AF95EC2AFED4C000358E5E /* GIMMChatTests */,
+				D4AF95F62AFED4C000358E5E /* GIMMChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4AF95DA2AFED4BF00358E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AF95E82AFED4C000358E5E /* Preview Assets.xcassets in Resources */,
+				D4AF95E42AFED4C000358E5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF95EB2AFED4C000358E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF95F52AFED4C000358E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4AF95D82AFED4BF00358E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AF95E22AFED4BF00358E5E /* ContentView.swift in Sources */,
+				D4AF95E02AFED4BF00358E5E /* GIMMChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF95E92AFED4C000358E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AF95F22AFED4C000358E5E /* GIMMChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF95F32AFED4C000358E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AF95FE2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift in Sources */,
+				D4AF95FC2AFED4C000358E5E /* GIMMChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4AF95EF2AFED4C000358E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4AF95DB2AFED4BF00358E5E /* GIMMChat */;
+			targetProxy = D4AF95EE2AFED4C000358E5E /* PBXContainerItemProxy */;
+		};
+		D4AF95F92AFED4C000358E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4AF95DB2AFED4BF00358E5E /* GIMMChat */;
+			targetProxy = D4AF95F82AFED4C000358E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4AF95FF2AFED4C000358E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4AF96002AFED4C000358E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D4AF96022AFED4C000358E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GIMMChat/GIMMChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GIMMChat/Preview Content\"";
+				DEVELOPMENT_TEAM = X769NMRNS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.seanmckenzie.GIMMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4AF96032AFED4C000358E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GIMMChat/GIMMChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GIMMChat/Preview Content\"";
+				DEVELOPMENT_TEAM = X769NMRNS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.seanmckenzie.GIMMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4AF96052AFED4C000358E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X769NMRNS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.seanmckenzie.GIMMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIMMChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GIMMChat";
+			};
+			name = Debug;
+		};
+		D4AF96062AFED4C000358E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X769NMRNS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.seanmckenzie.GIMMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIMMChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GIMMChat";
+			};
+			name = Release;
+		};
+		D4AF96082AFED4C000358E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X769NMRNS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.seanmckenzie.GIMMChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIMMChat;
+			};
+			name = Debug;
+		};
+		D4AF96092AFED4C000358E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X769NMRNS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.seanmckenzie.GIMMChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIMMChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4AF95D72AFED4BF00358E5E /* Build configuration list for PBXProject "GIMMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AF95FF2AFED4C000358E5E /* Debug */,
+				D4AF96002AFED4C000358E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AF96012AFED4C000358E5E /* Build configuration list for PBXNativeTarget "GIMMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AF96022AFED4C000358E5E /* Debug */,
+				D4AF96032AFED4C000358E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AF96042AFED4C000358E5E /* Build configuration list for PBXNativeTarget "GIMMChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AF96052AFED4C000358E5E /* Debug */,
+				D4AF96062AFED4C000358E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AF96072AFED4C000358E5E /* Build configuration list for PBXNativeTarget "GIMMChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AF96082AFED4C000358E5E /* Debug */,
+				D4AF96092AFED4C000358E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4AF95D42AFED4BF00358E5E /* Project object */;
+}
