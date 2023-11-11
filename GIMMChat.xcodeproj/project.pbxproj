@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D46437BF2AFF392A008D7E41 /* ChatCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437BE2AFF392A008D7E41 /* ChatCompletion.swift */; };
+		D46437C12AFF39C7008D7E41 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437C02AFF39C7008D7E41 /* Choice.swift */; };
+		D46437C32AFF39E1008D7E41 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437C22AFF39E1008D7E41 /* Message.swift */; };
+		D46437C62AFF3CCD008D7E41 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D46437C52AFF3CCD008D7E41 /* .gitignore */; };
+		D46437C82AFF3DA5008D7E41 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437C72AFF3DA5008D7E41 /* Usage.swift */; };
+		D46437CC2AFF3E68008D7E41 /* ChatCompletionResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437CB2AFF3E68008D7E41 /* ChatCompletionResource.swift */; };
+		D46437CE2AFF4418008D7E41 /* QuestionsResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437CD2AFF4418008D7E41 /* QuestionsResource.swift */; };
+		D46437D02AFF4453008D7E41 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46437CF2AFF4453008D7E41 /* Question.swift */; };
 		D4AF95E02AFED4BF00358E5E /* GIMMChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95DF2AFED4BF00358E5E /* GIMMChatApp.swift */; };
 		D4AF95E22AFED4BF00358E5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95E12AFED4BF00358E5E /* ContentView.swift */; };
 		D4AF95E42AFED4C000358E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AF95E32AFED4C000358E5E /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 		D4AF95F22AFED4C000358E5E /* GIMMChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95F12AFED4C000358E5E /* GIMMChatTests.swift */; };
 		D4AF95FC2AFED4C000358E5E /* GIMMChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95FB2AFED4C000358E5E /* GIMMChatUITests.swift */; };
 		D4AF95FE2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF95FD2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift */; };
+		D4AF961E2AFED76A00358E5E /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF960B2AFED76A00358E5E /* Wrapper.swift */; };
+		D4AF961F2AFED76A00358E5E /* JSONDecoder+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF960C2AFED76A00358E5E /* JSONDecoder+API.swift */; };
+		D4AF96202AFED76B00358E5E /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF960E2AFED76A00358E5E /* APIResource.swift */; };
+		D4AF96242AFED76B00358E5E /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF96132AFED76A00358E5E /* ImageRequest.swift */; };
+		D4AF96252AFED76B00358E5E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF96142AFED76A00358E5E /* APIRequest.swift */; };
+		D4AF96262AFED76B00358E5E /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF96152AFED76A00358E5E /* NetworkRequest.swift */; };
+		D4D174612AFF56AD00B61AF8 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D174602AFF56AD00B61AF8 /* APIResponse.swift */; };
+		D4D174672B00322200B61AF8 /* TestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D174662B00322200B61AF8 /* TestRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D46437BE2AFF392A008D7E41 /* ChatCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCompletion.swift; sourceTree = "<group>"; };
+		D46437C02AFF39C7008D7E41 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		D46437C22AFF39E1008D7E41 /* Message.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D46437C52AFF3CCD008D7E41 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D46437C72AFF3DA5008D7E41 /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
+		D46437CB2AFF3E68008D7E41 /* ChatCompletionResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCompletionResource.swift; sourceTree = "<group>"; };
+		D46437CD2AFF4418008D7E41 /* QuestionsResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsResource.swift; sourceTree = "<group>"; };
+		D46437CF2AFF4453008D7E41 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		D4AF95DC2AFED4BF00358E5E /* GIMMChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIMMChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AF95DF2AFED4BF00358E5E /* GIMMChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatApp.swift; sourceTree = "<group>"; };
 		D4AF95E12AFED4BF00358E5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +69,14 @@
 		D4AF95F72AFED4C000358E5E /* GIMMChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIMMChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AF95FB2AFED4C000358E5E /* GIMMChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatUITests.swift; sourceTree = "<group>"; };
 		D4AF95FD2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMMChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4AF960B2AFED76A00358E5E /* Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		D4AF960C2AFED76A00358E5E /* JSONDecoder+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+API.swift"; sourceTree = "<group>"; };
+		D4AF960E2AFED76A00358E5E /* APIResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		D4AF96132AFED76A00358E5E /* ImageRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
+		D4AF96142AFED76A00358E5E /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		D4AF96152AFED76A00358E5E /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		D4D174602AFF56AD00B61AF8 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		D4D174662B00322200B61AF8 /* TestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +104,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D46437C42AFF3AE6008D7E41 /* ChatCompletions */ = {
+			isa = PBXGroup;
+			children = (
+				D46437BE2AFF392A008D7E41 /* ChatCompletion.swift */,
+				D46437C02AFF39C7008D7E41 /* Choice.swift */,
+				D46437C22AFF39E1008D7E41 /* Message.swift */,
+				D46437C72AFF3DA5008D7E41 /* Usage.swift */,
+			);
+			path = ChatCompletions;
+			sourceTree = "<group>";
+		};
 		D4AF95D32AFED4BF00358E5E = {
 			isa = PBXGroup;
 			children = (
+				D46437C52AFF3CCD008D7E41 /* .gitignore */,
 				D4AF95DE2AFED4BF00358E5E /* GIMMChat */,
 				D4AF95F02AFED4C000358E5E /* GIMMChatTests */,
 				D4AF95FA2AFED4C000358E5E /* GIMMChatUITests */,
@@ -95,8 +139,10 @@
 		D4AF95DE2AFED4BF00358E5E /* GIMMChat */ = {
 			isa = PBXGroup;
 			children = (
+				D4AF960A2AFED76A00358E5E /* Model */,
+				D4AF96192AFED76A00358E5E /* View */,
+				D4AF96162AFED76A00358E5E /* ViewModel */,
 				D4AF95DF2AFED4BF00358E5E /* GIMMChatApp.swift */,
-				D4AF95E12AFED4BF00358E5E /* ContentView.swift */,
 				D4AF95E32AFED4C000358E5E /* Assets.xcassets */,
 				D4AF95E52AFED4C000358E5E /* GIMMChat.entitlements */,
 				D4AF95E62AFED4C000358E5E /* Preview Content */,
@@ -107,6 +153,8 @@
 		D4AF95E62AFED4C000358E5E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				D46437CD2AFF4418008D7E41 /* QuestionsResource.swift */,
+				D46437CF2AFF4453008D7E41 /* Question.swift */,
 				D4AF95E72AFED4C000358E5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -127,6 +175,54 @@
 				D4AF95FD2AFED4C000358E5E /* GIMMChatUITestsLaunchTests.swift */,
 			);
 			path = GIMMChatUITests;
+			sourceTree = "<group>";
+		};
+		D4AF960A2AFED76A00358E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF96122AFED76A00358E5E /* Requests */,
+				D46437C42AFF3AE6008D7E41 /* ChatCompletions */,
+				D4AF960D2AFED76A00358E5E /* Resources */,
+				D4AF960B2AFED76A00358E5E /* Wrapper.swift */,
+				D4AF960C2AFED76A00358E5E /* JSONDecoder+API.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4AF960D2AFED76A00358E5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D46437CB2AFF3E68008D7E41 /* ChatCompletionResource.swift */,
+				D4AF960E2AFED76A00358E5E /* APIResource.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4AF96122AFED76A00358E5E /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF96132AFED76A00358E5E /* ImageRequest.swift */,
+				D4AF96142AFED76A00358E5E /* APIRequest.swift */,
+				D4AF96152AFED76A00358E5E /* NetworkRequest.swift */,
+				D4D174602AFF56AD00B61AF8 /* APIResponse.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		D4AF96162AFED76A00358E5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4AF96192AFED76A00358E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF95E12AFED4BF00358E5E /* ContentView.swift */,
+				D4D174662B00322200B61AF8 /* TestRequest.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4AF95E82AFED4C000358E5E /* Preview Assets.xcassets in Resources */,
+				D46437C62AFF3CCD008D7E41 /* .gitignore in Resources */,
 				D4AF95E42AFED4C000358E5E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +356,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46437D02AFF4453008D7E41 /* Question.swift in Sources */,
 				D4AF95E22AFED4BF00358E5E /* ContentView.swift in Sources */,
+				D4AF961F2AFED76A00358E5E /* JSONDecoder+API.swift in Sources */,
+				D46437CC2AFF3E68008D7E41 /* ChatCompletionResource.swift in Sources */,
 				D4AF95E02AFED4BF00358E5E /* GIMMChatApp.swift in Sources */,
+				D4D174612AFF56AD00B61AF8 /* APIResponse.swift in Sources */,
+				D4AF96202AFED76B00358E5E /* APIResource.swift in Sources */,
+				D46437BF2AFF392A008D7E41 /* ChatCompletion.swift in Sources */,
+				D46437C12AFF39C7008D7E41 /* Choice.swift in Sources */,
+				D4D174672B00322200B61AF8 /* TestRequest.swift in Sources */,
+				D4AF961E2AFED76A00358E5E /* Wrapper.swift in Sources */,
+				D4AF96242AFED76B00358E5E /* ImageRequest.swift in Sources */,
+				D4AF96262AFED76B00358E5E /* NetworkRequest.swift in Sources */,
+				D46437C32AFF39E1008D7E41 /* Message.swift in Sources */,
+				D46437CE2AFF4418008D7E41 /* QuestionsResource.swift in Sources */,
+				D4AF96252AFED76B00358E5E /* APIRequest.swift in Sources */,
+				D46437C82AFF3DA5008D7E41 /* Usage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
