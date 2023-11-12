@@ -30,6 +30,7 @@
 		D4AF96262AFED76B00358E5E /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF96152AFED76A00358E5E /* NetworkRequest.swift */; };
 		D4D174612AFF56AD00B61AF8 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D174602AFF56AD00B61AF8 /* APIResponse.swift */; };
 		D4D174672B00322200B61AF8 /* TestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D174662B00322200B61AF8 /* TestRequest.swift */; };
+		D4F64EFD2B0056A800349850 /* OpenAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4F64EFC2B0056A800349850 /* OpenAI-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		D4AF96152AFED76A00358E5E /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		D4D174602AFF56AD00B61AF8 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		D4D174662B00322200B61AF8 /* TestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequest.swift; sourceTree = "<group>"; };
+		D4F64EFC2B0056A800349850 /* OpenAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenAI-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		D4AF95D32AFED4BF00358E5E = {
 			isa = PBXGroup;
 			children = (
+				D4F64EFC2B0056A800349850 /* OpenAI-Info.plist */,
 				D46437C52AFF3CCD008D7E41 /* .gitignore */,
 				D4AF95DE2AFED4BF00358E5E /* GIMMChat */,
 				D4AF95F02AFED4C000358E5E /* GIMMChatTests */,
@@ -329,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F64EFD2B0056A800349850 /* OpenAI-Info.plist in Resources */,
 				D4AF95E82AFED4C000358E5E /* Preview Assets.xcassets in Resources */,
 				D46437C62AFF3CCD008D7E41 /* .gitignore in Resources */,
 				D4AF95E42AFED4C000358E5E /* Assets.xcassets in Resources */,
